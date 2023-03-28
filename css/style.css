@@ -1,0 +1,44 @@
+@charset "utf-8";
+A:link { FONT-STYLE: normal; TEXT-DECORATION: none; color: #FF0000;} 
+A:visited { FONT-STYLE: normal; TEXT-DECORATION: none; color: #eee7e7;} 
+A:active { FONT-STYLE: normal; TEXT-DECORATION: none; color: #FF0000;} 
+A:hover {FONT-STYLE: normal;  TEXT-DECORATION: none; color: #03E331;}
+body {
+  margin: 0; 
+  padding: 0; 
+  font-family: Gotham, Helvetica Neue, Helvetica, Arial,微軟正黑體," sans-serif";
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.both{clear: both;}
+img{max-width: 100%;}
+.carousel-item img{max-width: unset;}
+
+/*以下是自設定*/
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #6f5045;
+  --bs-btn-border-color: #4ffd0d00;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0b5ed7;
+  --bs-btn-hover-border-color: #0a58ca;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0a58ca;
+  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.col-lg-4
+{
+  box-shadow: inset 0px 0px 50px 0px #A8A8A8,5px 5px 5px 1px #634747;
+  -webkit-box-shadow: inset 0px 0px 50px 0px #A8A8A8,5px 5px 5px 1px #634747;
+  -moz-box-shadow: inset 0px 0px 50px 0px #A8A8A8,5px 5px 5px 1px #634747;
+  -o-box-shadow: inset 0px 0px 50px 0px #A8A8A8,5px 5px 5px 1px #634747;
+}
